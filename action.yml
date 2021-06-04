@@ -1,0 +1,17 @@
+name: 'Slugify String'
+description: 'Slugify a string'
+author: 'Andrew Valleteau'
+branding:
+  icon: 'package'
+  color: 'blue'
+inputs:
+  value:
+    description: 'The string to slugify'
+    required: true
+outputs:
+  result:
+    description: 'The slugified value'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
